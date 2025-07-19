@@ -7,6 +7,34 @@ const schema = mongoose.Schema(
       ref: "User",
       required: true,
     },
+    firstname: {
+      type: String,
+      required: true,
+    },
+    lastname: {
+      type: String,
+      required: true,
+    },
+    email: {
+      type: String,
+      required: true,
+    },
+    gender: {
+      type: String,
+      required: true,
+    },
+    mobile: {
+      type: Number,
+      required: true,
+    },
+    address: {
+      type: String,
+      required: true,
+    },
+    pic: {
+      type: String,
+      required: false,
+    },
     specialization: {
       type: String,
       required: true,

@@ -11,7 +11,7 @@ import Empty from "../components/Empty";
 
 const Doctors = () => {
   const [doctors, setDoctors] = useState([]);
-  const dispatch = useDispatch();
+  const dispatch = useDispatch(); 
   const { loading } = useSelector((state) => state.root);
 
   const fetchAllDocs = async () => {

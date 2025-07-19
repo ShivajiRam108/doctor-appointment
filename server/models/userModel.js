@@ -5,7 +5,7 @@ const schema = mongoose.Schema(
     firstname: {
       type: String,
       required: true,
-      minLength: 3,
+      minLength: 1,
     },
     lastname: {
       type: String,
